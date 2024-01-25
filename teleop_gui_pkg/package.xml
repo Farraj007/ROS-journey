@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model xmlns="http://www.ros.org/package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ros.org/package http://www.ros.org/schema/package_format3.xsd">
+<package format="3">
+  <name>teleop_gui_pkg</name>
+  <version>0.0.0</version>
+  <description>ROS 2 teleop GUI package</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>pacmod3_msgs</build_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>pacmod3_msgs</exec_depend>
+</package>
